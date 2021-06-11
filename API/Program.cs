@@ -12,6 +12,9 @@ using Persistence;
 
 namespace API
 {
+
+    // NOTE: Use dotnet watch run to start the back end or dotner run
+
     public class Program
     {
         public static async Task Main(string[] args)

@@ -3,6 +3,8 @@ import './App.css';
 import axios from 'axios';
 import { Header, List } from 'semantic-ui-react';
 
+// NOTE: Use npm start to run this client app
+
 function App() {
   const[activities, setActivities] = useState([]);
 
