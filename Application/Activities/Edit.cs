@@ -36,7 +36,6 @@ namespace Application.Activities
 
             public async Task<Result<Unit>> Handle(Command request, CancellationToken cancellationToken)
             {
-                // NOTE: We are choosing not to support cancellation
                 var activity = await _context.Activities.FindAsync(request.Activity.Id);
 
                 if (activity == null) return null;
